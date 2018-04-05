@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Cloudy
 header-img: img/home-bg.png
 email: cloudycua@gmail.com
 copyright_name: cloudycua
 description: > # this means to ignore newlines until "baseurl:"
-  
+  with a chance of code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  cloudycua
