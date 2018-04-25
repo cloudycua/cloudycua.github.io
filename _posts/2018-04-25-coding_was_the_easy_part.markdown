@@ -12,7 +12,7 @@ Best-Picture-Winners is my CLI Gem Project that creates a database of Academy Aw
 
 The list of award winners comes from a Rotten Tomatoes article:
 
-https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/
+[https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/](https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/)
 
 ## Scraping
 
