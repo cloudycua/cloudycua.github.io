@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Coding was the easy part"
-date:       2018-04-25 14:30:01 +0000
+date:       2018-04-25 10:30:02 -0400
 permalink:  coding_was_the_easy_part
 ---
 
@@ -14,7 +14,7 @@ The list of award winners comes from a Rotten Tomatoes article:
 
 https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/
 
-#### Scraping
+## Scraping
 
 While this project was more about the CLI, I enjoyed scraping the data and working through how to get the details I wanted. I scraped the title, year and url from the RT article (and the 8 other pages that list all the winners), then used the urls to find the individual movie pages to scrape the rest of the data. Overall, the scraping was pretty easy, but there were a few issues I had to work through. The great thing is that there is so much information out there and coder helping eachother, that it is easy to quickly google for a solution. The first was learning to using the CSS selector to get the element attribute value for the url link:
 
@@ -69,7 +69,7 @@ The last scraping issue that came up was getting back double or triples of the d
 `movie_page.css("div#scorePanel **.col-full-xs** p.critic_consensus").text.gsub("Critic Consensus:","").lstrip`
 
 
-### CLI
+## CLI
 
 The code for my project can be found here:
 
